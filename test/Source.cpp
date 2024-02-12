@@ -107,7 +107,7 @@ BOOL CALLBACK DlgProc(HWND hWnd, UINT mes, WPARAM wp, LPARAM lp)
         if (clickedStatic != hWnd)
         {
             DestroyWindow(clickedStatic);
-        }
+        } 
     }
     break;
 
